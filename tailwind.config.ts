@@ -18,7 +18,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        bagel: ['Bagel Fat One', 'cursive'],
+        heading: ['Montserrat', 'sans-serif'],
+        body: ['Poppins', 'sans-serif'],
       },
       colors: {
         border: "var(--border)",
@@ -46,8 +47,8 @@ export default {
           DEFAULT: "var(--accent)",
           foreground: "var(--accent-foreground)",
           blue: "var(--accent-blue)",
-          emerald: "var(--accent-emerald)",
-          purple: "var(--accent-purple)",
+          gold: "var(--accent-gold)",
+          green: "var(--accent-green)",
         },
         popover: {
           DEFAULT: "var(--popover)",
